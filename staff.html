@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Staff Sign In | Rosylvan Tech</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="staff-page">
+  <main class="staff-card">
+    <a href="index.html" class="brand" aria-label="Rosylvan Tech home">
+      <img src="assets/logo.svg" alt="" width="48" height="48">
+      <span class="brand-text"><strong>ROSYLVAN TECH</strong><small>We build, you scale</small></span>
+    </a>
+
+    <h1>Staff Sign In</h1>
+    <p class="staff-note">For authorised Rosylvan Tech staff only. Client accounts are not offered.</p>
+
+    <form id="staffForm" novalidate>
+      <div class="field">
+        <label for="staffEmail">Staff email</label>
+        <input id="staffEmail" type="email" autocomplete="username" required>
+      </div>
+      <div class="field">
+        <label for="staffPassword">Password</label>
+        <div class="pw-wrap">
+          <input id="staffPassword" type="password" autocomplete="current-password" required>
+          <button type="button" class="pw-toggle" id="pwToggle">Show</button>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary staff-submit">Sign in</button>
+      <p class="staff-status" id="staffStatus" role="status" aria-live="polite"></p>
+    </form>
+
+    <p class="staff-foot">Forgot your password? Contact the administrator.<br><a href="index.html">← Back to website</a></p>
+  </main>
+  <script src="js/staff.js"></script>
+</body>
+</html>

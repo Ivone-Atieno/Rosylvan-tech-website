@@ -1,0 +1,12 @@
+{
+  "name": "Rosylvan Tech",
+  "short_name": "Rosylvan",
+  "description": "We build, you scale. Technology solutions in Siaya, Kenya.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#050f2b",
+  "theme_color": "#050f2b",
+  "icons": [
+    { "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
